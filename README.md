@@ -64,28 +64,33 @@ make install # 出现不允许均切换root完成
 src/socket/include/socket/FFmpegVideoDecoder.h
 
 修改为自己虚拟机查出来的ip，端口可以不变
+![image](https://github.com/XuLearner6/config_Ascend_USBCamera_yolov5/assets/129271489/31c2d158-5756-4dfe-bb4a-8dcacd77c385)
 
 
 
 /src/socket/src/socket2PC.cpp
 
-![image-20240412144245182](C:\Users\20811\AppData\Roaming\Typora\typora-user-images\image-20240412144245182.png)
+![image](https://github.com/XuLearner6/config_Ascend_USBCamera_yolov5/assets/129271489/5587992d-56a7-4a1a-b4af-8de2597111c2)
 
-![image-20240412204023052](C:\Users\20811\AppData\Roaming\Typora\typora-user-images\image-20240412204023052.png)
+![image](https://github.com/XuLearner6/config_Ascend_USBCamera_yolov5/assets/129271489/b1d61b0b-aaec-4d4e-9ada-e58079481e34)
+
+
 
 这边替换为自己Ascend310B/config/face_recognition目录中的acl.json和face.om的实际路径。
 
 PC端的代码也要修改，
+![image](https://github.com/XuLearner6/config_Ascend_USBCamera_yolov5/assets/129271489/16d85b92-ef79-4b71-88db-8e62021772b7)
 
-![image-20240412144445809](C:\Users\20811\AppData\Roaming\Typora\typora-user-images\image-20240412144445809.png)
 
-![image-20240418005041794](C:\Users\20811\AppData\Roaming\Typora\typora-user-images\image-20240418005041794.png)
+![image](https://github.com/XuLearner6/config_Ascend_USBCamera_yolov5/assets/129271489/303cd1d7-987d-478b-9b17-1559e7bdfb6d)
+
 
 将ip设置为自己板子的IP即可。
 
 label也要修改
 
-![image-20240418001702083](C:\Users\20811\AppData\Roaming\Typora\typora-user-images\image-20240418001702083.png)
+![image](https://github.com/XuLearner6/config_Ascend_USBCamera_yolov5/assets/129271489/6a9c0bc6-3ff5-413b-84bb-3a4f917e83ef)
+
 
 
 
