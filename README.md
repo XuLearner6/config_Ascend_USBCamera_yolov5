@@ -1,5 +1,7 @@
 # config_Ascend_USBCamera_yolov5
 这是对这个包的安装说明
+具体的包下载请去这个地址
+https://github.com/lonelygsh/Ascend_USBCamera_yolov5
 ## 香橙派硬件
 
 切记不要使用sudo apt upgrade
