@@ -128,6 +128,9 @@ colcon build
 ```
 # 进入PC
 make
+
+# 编译报错可能是因为没有添加pthread库
+在LDFLAGS 最后添加-lpthread即可.
 ```
 
 ## 使用
